@@ -1,1 +1,16 @@
-Style.css
+/* 以下の内容を追加します */
+* {
+  line-height: 1;
+}
+
+.child {
+  padding-left: 40px;
+}
+
+.parent:nth-of-type(3n) {
+  color:red
+}
+
+.child:nth-of-type(n + 2) {
+  color:blue
+}
